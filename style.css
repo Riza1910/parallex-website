@@ -16,17 +16,23 @@ body,html{
     backface-visibility: hidden;
 }
 
-.welcomImg{
-    background: url("./image/image1.jpg") fixed;
+.welcomeImg{
+    background: url("./images/image1.jpg") fixed;
+    min-height: 100%;
+}
+
+.SectionOneImg{
+    background: url("./images/image2.jpg") fixed;
     min-height: 100%;
 }
 
 .SectionTwoImg{
-    background: url("./images/image3.jpg") fixed
+    background: url("./images/image3.jpg") fixed;
+    min-height: 100%;
 }
 
 .EndImg{
-    background: url("./image/image4.jpg") fixed 
+    background: url("./images/image4.jpg") fixed;
     min-height: 100%;
 
 }
@@ -61,5 +67,5 @@ body,html{
     padding:20px;
 }
 
-.ptext .border .trans{background-color:transparent;
+.ptext .border .trans{background-color: transparent;
 }
